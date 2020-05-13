@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Exo 2", Arial, 微軟正黑體, sans-serif;
+}
+
+
+
+.navbar {
+    position: sticky;
+    background-color: #fff;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #d49216;
+}
+
+.navbar .icon a {
+    font-size: 1.7rem;
+    color: #000;
+}
+
+.navbar .fa-search {
+    font-size: 1.7rem;
+    color: #000;
+    cursor: pointer;
+}
+
+.navbar .nav_right {
+    display: flex;
+}
+
+.about_section {
+    padding: 70px 0;
+    background: url('/pic/asset 37.jpeg') 0 0 no-repeat fixed;
+    background-color: #231a11;
+    background-size: cover;
+}
+
+.about_section .txt {
+    padding: 0 10%;
+    overflow-x: auto;
+}
+
+.about_section h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: rgb(212, 146, 22);
+}
+
+.about_section p {
+    color: #FFF;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.about_section button {
+    font-size: 1.2em;
+    background-color: rgb(212, 146, 22);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0px;
+    transition: all 0.8s ease 0s;
+    border-style: none;
+}
+
+#new_album {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+#new_album .pic {
+    padding-top: 1rem;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+
+#new_album i {
+    font-size: 4rem;
+    color: #d49216;
+}
+
+#new_album .section_title {
+    color: #d49216;
+    font-family: 'Exo 2', 'Arial', 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#new_album .section_title p {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+#new_album .clear_line {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.singner {
+    color: #d49216;
+}
+
+
+
+#recommended {
+    margin-top: 50px;
+}
+
+#recommended .col {
+    text-align: center;
+}
+
+
+#recommended .pic {
+    padding-top: 1rem;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+
+
+#recommended .this_month {
+    padding-top: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+#recommended i {
+    font-size: 4rem;
+    color: #d49216;
+}
+
+
+#recommended .section_title {
+    color: #d49216;
+    font-family: 'Exo 2', 'Arial', 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#recommended .section_title p {
+    font-weight: normal;
+    font-size: 1.5rem;
+
+}
+
+#recommended h5 {
+    padding-top: 1rem;
+}
+
+#recommended h5,
+#recommended span {
+    font-family: "Exo 2", Arial, "Noto Sans TC", '微軟正黑體', sans-serif;
+    font-weight: bold;
+}
+
+#recommended .clear_line {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.font_buttom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.font_buttom .txt {
+    margin-top: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.news {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding: 0 0 100px 0;
+    background-image: url('/pic/asset 36.jpeg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+.news i {
+    font-size: 4rem;
+    color: #d49216;
+}
+
+.news .section_title {
+    color: #d49216;
+    font-family: 'Exo 2', 'Arial', 'Noto Sans TC', '微軟正黑體', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.news .section_title p {
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+#main_footer_menu {
+    background-color: #000;
+    margin-top: 50px;
+}
+
+.footer_li_icon {
+    border-radius: 50%;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+
+}
+
+.icon-span {
+    font-size: 30px;
+
+}
+
+.icon-box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box a{
+    margin: auto;
+}
+
+#main_footer_menu h6 {
+    font-weight: 600;
+    font-size: 25px;
+    color: #919496;
+}
+
+#main_footer_menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#main_footer_menu a:hover {
+    color: #d49216;
+    transition: .7;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-size: .2rem;
+}
+
+#designer .team-name {
+    color: #d49216;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    #new_album .pic {
+        width: 80%;
+        height: auto;
+    }
+
+    #header .icon {
+        display: none;
+    }
+
+    #recommended .this_month {
+        width: 80%;
+    }
+
+    #recommended .txt {
+        width: 80%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #header .icon {
+        display: none;
+    }
+
+    #recommended .this_month {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #new_album .pic {
+        width: 100%;
+        height: auto;
+    }
+
+    #recommended .section_title p {
+        font-size: .5rem;
+    }
+}
