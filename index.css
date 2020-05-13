@@ -214,7 +214,7 @@
 
 #main_footer_menu {
     background-color: #000;
-    margin-top: 50px;
+    margin-top: 8rem;
 }
 
 .footer_li_icon {
@@ -222,12 +222,10 @@
     background-color: #222326;
     width: 54px;
     height: 54px;
-
 }
 
 .icon-span {
-    font-size: 30px;
-
+    font-size: 2rem;
 }
 
 .icon-box {
@@ -236,25 +234,30 @@
     justify-content: center;
     align-items: center;
 }
-.icon-box a{
+
+.icon-box a {
     margin: auto;
 }
 
 #main_footer_menu h6 {
     font-weight: 600;
-    font-size: 25px;
+    font-size: 1rem;
     color: #919496;
 }
 
 #main_footer_menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 #main_footer_menu a:hover {
     color: #d49216;
     transition: .7;
+}
+
+#main_footer_menu li {
+    margin: 1rem 0;
 }
 
 footer {
