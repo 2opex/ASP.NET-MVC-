@@ -5,7 +5,7 @@ body {
 }
 
 .contact-area {
-    background-image: url("../pic/bg-2.png");
+    background-image: url("pic/bg-2.png");
     background-repeat: no-repeat;
     height: 100%;
     background-position: center center;
@@ -70,6 +70,7 @@ body {
 
 .send-btn {
     min-width: 212px;
+   height: 49px;
     border-color: #fff;
     color: #fff;
     background-color: transparent;
