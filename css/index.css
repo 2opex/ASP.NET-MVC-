@@ -1,3 +1,5 @@
+@import url("/css/home_footer.css");
+
 * {
     margin: 0;
     padding: 0;
@@ -59,9 +61,11 @@ img {
 }
 
 .header-area {
-    background-color: #000000;
-    position: sticky;
+    background-color: transparent;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 10;
 }
 
@@ -332,25 +336,30 @@ img {
     letter-spacing: 8px;
     margin-bottom: 0;
 }
+
 .weeks_top_area .single_top_item {
     position: relative;
     z-index: 1;
     margin-bottom: 21px;
 }
+
 .weeks_top_area .single_top_item .thumbnail {
     flex: 0 0 73px;
     max-width: 73px;
     width: 73px;
     margin-right: 20px;
 }
+
 .weeks_top_area .single_top_item .content_ h6 {
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
 .weeks_top_area .single_top_item .content_ p {
     font-size: 14px;
     margin-bottom: 0;
 }
+
 .new_hits_area {
     position: relative;
     z-index: 1;
@@ -358,6 +367,7 @@ img {
     border: 1px solid #d8d8d8;
     background-color: #f5f9fa;
 }
+
 .new_hits_area .single_new_item {
     position: relative;
     z-index: 1;
@@ -365,26 +375,32 @@ img {
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
+
 .new_hits_area .single_new_item .thumbnail {
     flex: 0 0 73px;
     max-width: 73px;
     width: 73px;
     margin-right: 20px;
 }
+
 .new_hits_area .single_new_item .content_ h6 {
     text-transform: uppercase;
     margin-bottom: 0;
 }
+
 .new_hits_area .single_new_item .content_ p {
     font-size: 14px;
     margin-bottom: 0;
 }
+
 .miscellaneous_area .audioplayer_playpause {
     background-color: #d6d6d6;
 }
+
 .miscellaneous_area .audioplayer_playpause a {
     border-left: 12px solid #ffffff;
 }
+
 .popular_artists_area {
     position: relative;
     z-index: 1;
@@ -393,11 +409,13 @@ img {
     border: 1px solid #d8d8d8;
     background-color: #f5f9fa;
 }
+
 .popular_artists_area .single_artists {
     position: relative;
     z-index: 1;
     margin-bottom: 17px;
 }
+
 .popular_artists_area .single_artists .thumbnail {
     flex: 0 0 63px;
     max-width: 63px;
@@ -405,27 +423,43 @@ img {
     margin-right: 20px;
     border-radius: 50%;
 }
+
 .popular_artists_area .single_artists .thumbnail img {
     border-radius: 50%;
 }
+
 .popular_artists_area .single_artists .content_ p {
     font-size: 16px;
     margin-bottom: 0;
 }
+
+
+
 @media screen and (max-width:768px) {
+    .hero-text h6 {
+        font-size: 18px;
+        letter-spacing: 20px
+    }
 
     .hero_image {
         padding-bottom: 80%;
     }
 
+    .header-area {
+        background-color: #000000;
+        position: sticky;
+    }
+
     .hero-text h6 {
-        font-size: 18px;
-        letter-spacing: 10px
+        font-size: 14px;
+        letter-spacing: 5px;
+        margin-top: 20px;
     }
 
     .hero-text h2 {
-        font-size: 30px;
-        letter-spacing: 10px;
+        font-size: 40px;
+        letter-spacing: 5px;
+        margin-top: 20px;
     }
 
     .latest_albums .px-5 {
