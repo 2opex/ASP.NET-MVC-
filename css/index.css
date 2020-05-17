@@ -445,11 +445,6 @@ img {
         padding-bottom: 80%;
     }
 
-    .header-area {
-        background-color: #000000;
-        position: sticky;
-    }
-
     .hero-text h6 {
         font-size: 14px;
         letter-spacing: 5px;
@@ -469,5 +464,12 @@ img {
 
     .section_heading h2 {
         letter-spacing: 5px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .header-area {
+        background-color: #000000;
+        position: sticky;
     }
 }
