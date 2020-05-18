@@ -4,7 +4,7 @@
     list-style: none;
 }
 .breadcumb_area{
-    background-image: url("breadcumb3.jpg");
+    background-image: url("../pic/breadcumb3.jpg");
     height: 270px;
     position: relative;
     z-index: 10;
@@ -162,7 +162,7 @@ img{
     
 }
 .contact_area {
-    background-image: url("bg-2.jpg");
+    background-image: url("../pic/bg-2.jpg");
    
 }
 .has-bg-img{
