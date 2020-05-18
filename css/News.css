@@ -162,7 +162,11 @@ img{
     
 }
 .contact_area {
+<<<<<<< HEAD
     background-image: url("../pic/bg-2.jpg");
+=======
+    background-image: url("../pic/bg-2.png");
+>>>>>>> master
    
 }
 .has-bg-img{
@@ -257,9 +261,13 @@ img{
     background-color: #fff;
     color: #000;
 }
+<<<<<<< HEAD
 .has-bg-img .onemusic_btn i{
     display: inline-block;  
 }
+=======
+
+>>>>>>> master
 
 
 
