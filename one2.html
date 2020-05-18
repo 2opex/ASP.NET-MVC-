@@ -1,158 +1,41 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/one2.css">
+    <script src="https://kit.fontawesome.com/83fb5d23dd.js" crossorigin="anonymous"></script>
     <title>Hello, world!</title>
-    <style>
-        html,
-        body {
-            height: 100%;
-
-        }
-
-        .contact-area {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("pic/bg-2.png");
-            background-repeat: no-repeat;
-            height: 100%;
-            background-position: center center;
-            background-attachment: fixed !important;
-
-        }
-
-        /* 
-        .contact-area::after {
-            background-color: rgba(0, 0, 0, 0.65);
-            position: absolute;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            content: "";
-        } */
-
-
-
-        .section-heading {
-            text-align: center;
-            color: #fff;
-        }
-       
-        .form-group .form-name {
-            height: 45px;
-            width: 100%;
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px solid #fff;
-
-        }
-
-        .form-group .form-email {
-            height: 45px;
-            width: 100%;
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px solid #fff;
-
-        }
-
-        .form-group .form-subject {
-            height: 45px;
-            width: 100%;
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px solid #fff;
-
-        }
-
-
-        .form-message input {
-            height: 160px;
-            width: 100%;
-            background-color: transparent;
-            border: none;
-            border-bottom: 1px solid #fff;
-
-        }
-
-        .send-btn {
-            min-width: 212px;
-            height: 49px;
-            border-color: #fff;
-            color: #fff;
-            background-color: transparent;
-            border: #fff solid 1px;
-        }
-
-        .send-btn:hover {
-            background-color: #fff;
-            color: black;
-            transition-duration: 500ms;
-        }
-
-        .foot-layout {
-            background-color: black;
-
-        }
-
-        .foot-ul a {
-            text-decoration: none;
-            color: #898888;
-            padding: 0px 8px;
-
-        }
-
-        .foot-ul a:hover {
-            color: #fff;
-        }
-
-        .foot-ul li {
-            list-style: none;
-
-        }
-
-        .foot-ul {
-            display: flex;
-           
-            justify-content: flex-end;
-
-
-        }
-
-       
-
-        .foot-txt {
-            color: rgba(166, 165, 165, 0.54);
-            font-size: 12px;
-        }
-
-        .foot-title {
-            color: #fff;
-        }
-
-        ::-webkit-input-placeholder {
-            /* WebKit browsers */
-            color: #343a40;
-        }
-        .foot-nav-box{
-            display: flex;
-          align-items: center;
-        }
-    </style>
 </head>
-
 <body>
-
+    <section class="pic"><div class="block"></div>
+        <div class="bradcumb-content">
+            <p>See what's new</p>
+            <h4>Contact</h4>
+        </div>
+    </section>
+    <div class="container map">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <ul class="list-group">
+                    <h5>Contact Info</h5>
+                    <div class="list-group-item"><i class="fas fa-map-marked-alt"></i><p>新竹市香山區五福路二段707號</p></div>
+                    <div class="list-group-item"><i class="fas fa-mobile-alt"></i><p>>+3333333333</p></div>
+                    <div class="list-group-item"><i class="far fa-envelope"></i><p>@gmail.com</p></div>
+                    <div class="list-group-item"><i class="fab fa-pinterest-square"></i><i class="fab fa-facebook-f"></i><i class="fab fa-twitter"></i><i class="fab fa-dribbble"></i><i class="fab fa-behance"></i><i class="fab fa-linkedin-in"></i></div>
+        
+                  </ul>
+            </div>
+            <div class="col-12 col-lg-9">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.1183624083455!2d120.95007521493875!3d24.757130584102722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34684a5cb60622fd%3A0xb0ead5088c97b0db!2z5Lit6I-v5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1589631239095!5m2!1szh-TW!2stw" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
     <section class="contact-area">
-
 
         <div class="container py-5">
             <div class="row">
@@ -166,24 +49,24 @@
             <div class="row py-5">
                 <div class="col-md-6 col-lg-4">
                     <div class="form-group">
-                        <input type="text" class="form-name" id="name" placeholder="Name" style="color: #fff;">
+                        <input type="text" class="form-name" id="name" placeholder="Name">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="form-group">
-                        <input type="text" class="form-email" id="email" placeholder="E-mail" style="color: #fff;">
+                        <input type="text" class="form-email" id="email" placeholder="E-mail">
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="form-group">
-                        <input type="text" class="form-subject" id="subject" placeholder="Subject" style="color: #fff;">
+                        <input type="text" class="form-subject" id="subject" placeholder="Subject">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="form-message">
-                        <input type="text" class="form-message" id="message" placeholder="Message" style="color: #fff;">
+                        <input type="text" class="form-message" id="message" placeholder="Message">
                     </div>
                 </div>
             </div>
@@ -198,7 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-6">
-                    <h4 class="foot-title">SoulFul</h4>
+                  <h4 class="foot-title">SoulFul</h4>
                     <p class="foot-txt">Copyright ©2020 All rights reserved | This template is made with by Colorlibs
                     </p>
                 </div>
@@ -216,7 +99,6 @@
             </div>
         </div>
     </footer>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -229,5 +111,4 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
