@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .breadcumb-area{
-    background-image: url(../img/header_bg.jpg);
+    background-image: url(../pic/login_bg.jpg);
     position: relative;
     z-index: 10;
     width: 100%;
