@@ -1,5 +1,5 @@
 .contact-area {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../pic/bg-2.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pic/bg-2.png");
     background-repeat: no-repeat;
     height: 100%;
     background-position: center center;
@@ -7,10 +7,23 @@
 
 }
 
+/* 
+        .contact-area::after {
+            background-color: rgba(0, 0, 0, 0.65);
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: "";
+        } */
+
+
 
 .section-heading {
     text-align: center;
-
+    color: #fff;
 }
 
 .form-group .form-name {
@@ -88,7 +101,7 @@
 
 .foot-ul {
     display: flex;
-   
+
     justify-content: flex-end;
 
 
@@ -109,7 +122,8 @@
     /* WebKit browsers */
     color: #343a40;
 }
-.foot-nav-box{
+
+.foot-nav-box {
     display: flex;
-  align-items: center;
+    align-items: center;
 }
