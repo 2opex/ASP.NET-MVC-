@@ -1,5 +1,5 @@
 .contact-area {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../pic/bg-2.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pic/bg-2.png");
     background-repeat: no-repeat;
     height: 100%;
     background-position: center center;
@@ -101,7 +101,7 @@
 
 .foot-ul {
     display: flex;
-   
+
     justify-content: flex-end;
 
 
@@ -122,7 +122,21 @@
     /* WebKit browsers */
     color: #343a40;
 }
-.foot-nav-box{
+
+.foot-nav-box {
     display: flex;
-  align-items: center;
+    align-items: center;
+}
+
+@media screen and (max-width:425px) {
+    .foot-ul {
+        padding: 0;
+    }
+
+    .foot-ul a {
+        text-decoration: none;
+        color: #898888;
+        padding: 0px 5px;
+
+    }
 }
