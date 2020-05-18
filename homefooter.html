@@ -12,14 +12,8 @@
 
     <title>Hello, world!</title>
     <style>
-        html,
-        body {
-            height: 100%;
-
-        }
-
         .contact-area {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("pic/bg-2.png");
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pic/bg-2.png");
             background-repeat: no-repeat;
             height: 100%;
             background-position: center center;
@@ -45,7 +39,7 @@
             text-align: center;
             color: #fff;
         }
-       
+
         .form-group .form-name {
             height: 45px;
             width: 100%;
@@ -121,13 +115,13 @@
 
         .foot-ul {
             display: flex;
-           
+
             justify-content: flex-end;
 
 
         }
 
-       
+
 
         .foot-txt {
             color: rgba(166, 165, 165, 0.54);
@@ -142,9 +136,22 @@
             /* WebKit browsers */
             color: #343a40;
         }
-        .foot-nav-box{
+
+        .foot-nav-box {
             display: flex;
-          align-items: center;
+            align-items: center;
+        }
+
+        @media screen and (max-width:425px) {
+            .foot-ul{
+                padding: 0;
+            }
+            .foot-ul a {
+                text-decoration: none;
+                color: #898888;
+                padding: 0px 3px;
+
+            }
         }
     </style>
 </head>
