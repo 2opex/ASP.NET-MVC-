@@ -5,10 +5,9 @@
 }
 .breadcumb_area{
     background-image: url("../pic/breadcumb3.jpg");
-    height: 270px;
+    padding-bottom: 300px;
     position: relative;
     z-index: 10;
-    width: 100%;
 } 
 .bg-overlay{
     background-position: center center;
